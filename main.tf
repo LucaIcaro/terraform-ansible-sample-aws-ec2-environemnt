@@ -7,6 +7,8 @@ resource "aws_vpc" "main" {
 
   tags = {
     Name = "inv-dev"
+    env = "dev"
+    project = "inv"
   }
 }
 

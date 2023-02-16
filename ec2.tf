@@ -43,6 +43,8 @@ resource "aws_instance" "mongoc" {
     Name = "mongoc-${count.index + 1}"
     role = "mongoc"
     env = "dev"
+    project = "inv"
+    count = "${count.index + 1}"
   }
 }
 
@@ -62,5 +64,7 @@ resource "aws_instance" "mongod" {
     Name = "mongod-${count.index + 1}"
     role = "mongod"
     env = "dev"
+    project = "inv"
+    count = "${count.index + 1}"
   }
 }
