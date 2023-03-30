@@ -1,0 +1,681 @@
+2023-03-30 14:45:53,589 p=8852 u=luca n=ansible | [DEPRECATION WARNING]: [defaults]callback_whitelist option, normalizing names to new 
+standard, use callbacks_enabled instead. This feature will be removed from ansible-core in 
+version 2.15. Deprecation warnings can be disabled by setting deprecation_warnings=False in 
+ansible.cfg.
+2023-03-30 14:45:53,590 p=8852 u=luca n=ansible | Starting galaxy collection install process
+2023-03-30 14:45:53,591 p=8852 u=luca n=ansible | Process install dependency map
+2023-03-30 14:45:53,591 p=8852 u=luca n=ansible | |
+2023-03-30 14:45:53,692 p=8852 u=luca n=ansible | /
+2023-03-30 14:45:53,793 p=8852 u=luca n=ansible | -
+2023-03-30 14:45:53,894 p=8852 u=luca n=ansible | \
+2023-03-30 14:45:53,995 p=8852 u=luca n=ansible | |
+2023-03-30 14:45:54,095 p=8852 u=luca n=ansible | /
+2023-03-30 14:45:54,197 p=8852 u=luca n=ansible | -
+2023-03-30 14:45:54,297 p=8852 u=luca n=ansible | \
+2023-03-30 14:45:54,398 p=8852 u=luca n=ansible | |
+2023-03-30 14:45:54,499 p=8852 u=luca n=ansible | /
+2023-03-30 14:45:54,600 p=8852 u=luca n=ansible | -
+2023-03-30 14:45:54,701 p=8852 u=luca n=ansible | \
+2023-03-30 14:45:54,802 p=8852 u=luca n=ansible | |
+2023-03-30 14:45:54,903 p=8852 u=luca n=ansible | /
+2023-03-30 14:45:55,004 p=8852 u=luca n=ansible | -
+2023-03-30 14:45:55,105 p=8852 u=luca n=ansible | \
+2023-03-30 14:45:55,206 p=8852 u=luca n=ansible | |
+2023-03-30 14:45:55,306 p=8852 u=luca n=ansible | /
+2023-03-30 14:45:55,407 p=8852 u=luca n=ansible | -
+2023-03-30 14:45:55,508 p=8852 u=luca n=ansible | \
+2023-03-30 14:45:55,608 p=8852 u=luca n=ansible | |
+2023-03-30 14:45:55,709 p=8852 u=luca n=ansible | /
+2023-03-30 14:45:55,810 p=8852 u=luca n=ansible | -
+2023-03-30 14:45:55,911 p=8852 u=luca n=ansible | \
+2023-03-30 14:45:56,012 p=8852 u=luca n=ansible | |
+2023-03-30 14:45:56,112 p=8852 u=luca n=ansible | /
+2023-03-30 14:45:56,213 p=8852 u=luca n=ansible | -
+2023-03-30 14:45:56,314 p=8852 u=luca n=ansible | \
+2023-03-30 14:45:56,414 p=8852 u=luca n=ansible | |
+2023-03-30 14:45:56,515 p=8852 u=luca n=ansible | /
+2023-03-30 14:45:56,615 p=8852 u=luca n=ansible | -
+2023-03-30 14:45:56,716 p=8852 u=luca n=ansible | \
+2023-03-30 14:45:56,816 p=8852 u=luca n=ansible | |
+2023-03-30 14:45:56,917 p=8852 u=luca n=ansible | /
+2023-03-30 14:45:57,017 p=8852 u=luca n=ansible | -
+2023-03-30 14:45:57,118 p=8852 u=luca n=ansible | \
+2023-03-30 14:45:57,219 p=8852 u=luca n=ansible | |
+2023-03-30 14:45:57,319 p=8852 u=luca n=ansible | /
+2023-03-30 14:45:57,419 p=8852 u=luca n=ansible | -
+2023-03-30 14:45:57,520 p=8852 u=luca n=ansible | \
+2023-03-30 14:45:57,622 p=8852 u=luca n=ansible | |
+2023-03-30 14:45:57,723 p=8852 u=luca n=ansible | /
+2023-03-30 14:45:57,824 p=8852 u=luca n=ansible | -
+2023-03-30 14:45:57,924 p=8852 u=luca n=ansible | \
+2023-03-30 14:45:58,025 p=8852 u=luca n=ansible | |
+2023-03-30 14:45:58,126 p=8852 u=luca n=ansible | /
+2023-03-30 14:45:58,227 p=8852 u=luca n=ansible | -
+2023-03-30 14:45:58,328 p=8852 u=luca n=ansible | \
+2023-03-30 14:45:58,428 p=8852 u=luca n=ansible | |
+2023-03-30 14:45:58,529 p=8852 u=luca n=ansible | /
+2023-03-30 14:45:58,629 p=8852 u=luca n=ansible | -
+2023-03-30 14:45:58,730 p=8852 u=luca n=ansible | \
+2023-03-30 14:45:58,831 p=8852 u=luca n=ansible | |
+2023-03-30 14:45:58,932 p=8852 u=luca n=ansible | /
+2023-03-30 14:45:59,032 p=8852 u=luca n=ansible | -
+2023-03-30 14:45:59,133 p=8852 u=luca n=ansible | \
+2023-03-30 14:45:59,235 p=8852 u=luca n=ansible | |
+2023-03-30 14:45:59,335 p=8852 u=luca n=ansible | /
+2023-03-30 14:45:59,437 p=8852 u=luca n=ansible | -
+2023-03-30 14:45:59,538 p=8852 u=luca n=ansible | \
+2023-03-30 14:45:59,639 p=8852 u=luca n=ansible | |
+2023-03-30 14:45:59,739 p=8852 u=luca n=ansible | /
+2023-03-30 14:45:59,840 p=8852 u=luca n=ansible | -
+2023-03-30 14:45:59,941 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:00,042 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:00,143 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:00,243 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:00,344 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:00,444 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:00,545 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:00,646 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:00,746 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:00,847 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:00,948 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:01,049 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:01,150 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:01,251 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:01,352 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:01,453 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:01,554 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:01,654 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:01,755 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:01,856 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:01,957 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:02,058 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:02,159 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:02,260 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:02,360 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:02,461 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:02,561 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:02,662 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:02,763 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:02,864 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:02,965 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:03,066 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:03,167 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:03,268 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:03,369 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:03,470 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:03,570 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:03,671 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:03,771 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:03,872 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:03,973 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:04,074 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:04,174 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:04,275 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:04,375 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:04,476 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:04,577 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:04,677 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:04,778 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:04,879 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:04,980 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:05,081 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:05,182 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:05,282 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:05,383 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:05,484 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:05,586 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:05,687 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:05,787 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:05,888 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:05,989 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:06,090 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:06,191 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:06,291 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:06,392 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:06,493 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:06,593 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:06,694 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:06,795 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:06,896 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:06,997 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:07,097 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:07,198 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:07,299 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:07,400 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:07,501 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:07,602 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:07,703 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:07,803 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:07,904 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:08,005 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:08,107 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:08,207 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:08,308 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:08,409 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:08,509 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:08,610 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:08,711 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:08,811 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:08,912 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:09,013 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:09,114 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:09,214 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:09,315 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:09,416 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:09,518 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:09,618 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:09,719 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:09,820 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:09,921 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:10,022 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:10,122 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:10,222 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:10,323 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:10,424 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:10,524 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:10,625 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:10,726 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:10,827 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:10,928 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:11,029 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:11,130 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:11,230 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:11,331 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:11,432 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:11,533 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:11,634 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:11,734 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:11,835 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:11,936 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:12,036 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:12,137 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:12,237 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:12,338 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:12,438 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:12,539 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:12,640 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:12,741 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:12,841 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:12,942 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:13,042 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:13,143 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:13,244 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:13,344 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:13,445 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:13,545 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:13,645 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:13,746 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:13,847 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:13,948 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:14,049 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:14,150 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:14,250 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:14,351 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:14,452 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:14,552 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:14,653 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:14,753 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:14,854 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:14,955 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:15,056 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:15,157 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:15,258 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:15,359 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:15,459 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:15,560 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:15,662 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:15,763 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:15,863 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:15,964 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:16,065 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:16,166 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:16,267 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:16,368 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:16,468 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:16,570 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:16,670 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:16,771 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:16,872 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:16,973 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:17,075 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:17,176 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:17,277 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:17,378 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:17,479 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:17,580 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:17,681 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:17,782 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:17,883 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:17,983 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:18,084 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:18,184 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:18,285 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:18,385 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:18,486 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:18,586 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:18,687 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:18,787 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:18,888 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:18,988 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:19,089 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:19,190 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:19,290 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:19,390 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:19,491 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:19,592 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:19,692 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:19,793 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:19,894 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:19,994 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:20,095 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:20,196 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:20,297 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:20,398 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:20,498 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:20,599 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:20,700 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:20,802 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:20,903 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:21,004 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:21,105 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:21,205 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:21,306 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:21,407 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:21,507 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:21,608 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:21,709 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:21,809 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:21,910 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:22,011 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:22,111 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:22,212 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:22,312 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:22,413 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:22,514 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:22,615 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:22,716 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:22,816 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:22,918 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:23,018 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:23,119 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:23,220 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:23,321 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:23,422 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:23,523 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:23,624 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:23,725 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:23,826 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:23,926 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:24,026 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:24,127 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:24,228 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:24,329 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:24,430 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:24,530 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:24,631 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:24,732 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:24,833 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:24,934 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:25,035 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:25,136 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:25,237 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:25,338 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:25,439 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:25,539 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:25,640 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:25,740 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:25,841 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:25,942 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:26,043 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:26,144 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:26,245 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:26,346 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:26,447 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:26,548 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:26,649 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:26,750 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:26,850 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:26,951 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:27,052 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:27,153 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:27,253 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:27,354 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:27,454 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:27,555 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:27,655 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:27,756 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:27,857 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:27,958 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:28,059 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:28,161 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:28,262 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:28,363 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:28,464 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:28,565 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:28,666 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:28,766 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:28,867 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:28,969 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:29,069 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:29,170 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:29,271 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:29,371 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:29,472 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:29,573 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:29,674 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:29,775 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:29,876 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:29,977 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:30,078 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:30,179 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:30,280 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:30,381 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:30,481 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:30,582 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:30,683 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:30,784 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:30,885 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:30,986 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:31,087 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:31,188 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:31,289 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:31,390 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:31,491 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:31,592 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:31,693 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:31,794 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:31,895 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:31,997 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:32,098 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:32,199 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:32,300 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:32,402 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:32,502 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:32,603 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:32,704 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:32,805 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:32,906 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:33,008 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:33,109 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:33,210 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:33,311 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:33,412 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:33,513 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:33,613 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:33,714 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:33,815 p=8852 u=luca n=ansible | Starting collection install process
+2023-03-30 14:46:33,815 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:33,816 p=8852 u=luca n=ansible | Downloading https://galaxy.ansible.com/download/amazon-aws-4.2.0.tar.gz to /home/luca/.ansible/tmp/ansible-local-88525yr8hx46/tmpt1o2u3_s/amazon-aws-4.2.0-ubjbowxc
+2023-03-30 14:46:33,916 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:34,016 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:34,117 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:34,217 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:34,318 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:34,419 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:34,519 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:34,620 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:34,721 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:34,821 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:34,922 p=8852 u=luca n=ansible | Installing 'amazon.aws:4.2.0' to '/home/luca/workspace/terraform-sample-aws-ec2-environemnt/collections/ansible_collections/amazon/aws'
+2023-03-30 14:46:34,922 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:35,023 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:35,048 p=8852 u=luca n=ansible | Downloading https://galaxy.ansible.com/download/ansible-netcommon-2.5.1.tar.gz to /home/luca/.ansible/tmp/ansible-local-88525yr8hx46/tmpt1o2u3_s/ansible-netcommon-2.5.1-y0p8czdh
+2023-03-30 14:46:35,124 p=8852 u=luca n=ansible | amazon.aws:4.2.0 was installed successfully
+2023-03-30 14:46:35,124 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:35,225 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:35,326 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:35,427 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:35,528 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:35,628 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:35,729 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:35,829 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:35,930 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:36,031 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:36,132 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:36,229 p=8852 u=luca n=ansible | Downloading https://galaxy.ansible.com/download/ansible-utils-2.9.0.tar.gz to /home/luca/.ansible/tmp/ansible-local-88525yr8hx46/tmpt1o2u3_s/ansible-utils-2.9.0-2cwha_h6
+2023-03-30 14:46:36,233 p=8852 u=luca n=ansible | Installing 'ansible.netcommon:2.5.1' to '/home/luca/workspace/terraform-sample-aws-ec2-environemnt/collections/ansible_collections/ansible/netcommon'
+2023-03-30 14:46:36,233 p=8852 u=luca n=ansible | ansible.netcommon:2.5.1 was installed successfully
+2023-03-30 14:46:36,233 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:36,334 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:36,435 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:36,536 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:36,637 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:36,738 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:36,839 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:36,940 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:37,041 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:37,142 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:37,243 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:37,344 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:37,444 p=8852 u=luca n=ansible | Installing 'ansible.utils:2.9.0' to '/home/luca/workspace/terraform-sample-aws-ec2-environemnt/collections/ansible_collections/ansible/utils'
+2023-03-30 14:46:37,445 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:37,498 p=8852 u=luca n=ansible | Downloading https://galaxy.ansible.com/download/community-aws-4.4.0.tar.gz to /home/luca/.ansible/tmp/ansible-local-88525yr8hx46/tmpt1o2u3_s/community-aws-4.4.0-56l3r0mt
+2023-03-30 14:46:37,546 p=8852 u=luca n=ansible | ansible.utils:2.9.0 was installed successfully
+2023-03-30 14:46:37,546 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:37,647 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:37,747 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:37,848 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:37,949 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:38,049 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:38,150 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:38,251 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:38,352 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:38,452 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:38,553 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:38,654 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:38,755 p=8852 u=luca n=ansible | Installing 'community.aws:4.4.0' to '/home/luca/workspace/terraform-sample-aws-ec2-environemnt/collections/ansible_collections/community/aws'
+2023-03-30 14:46:38,755 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:38,857 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:38,958 p=8852 u=luca n=ansible | \
+2023-03-30 14:46:39,058 p=8852 u=luca n=ansible | |
+2023-03-30 14:46:39,159 p=8852 u=luca n=ansible | /
+2023-03-30 14:46:39,260 p=8852 u=luca n=ansible | -
+2023-03-30 14:46:39,361 p=8852 u=luca n=ansible | community.aws:4.4.0 was installed successfully
+2023-03-30 14:46:48,242 p=9079 u=luca n=ansible | ansible-playbook [core 2.13.7]
+  config file = /home/luca/workspace/terraform-sample-aws-ec2-environemnt/ansible.cfg
+  configured module search path = ['/home/luca/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /home/luca/.virtualenvs/ansible4/lib/python3.8/site-packages/ansible
+  ansible collection location = /home/luca/workspace/terraform-sample-aws-ec2-environemnt/collections
+  executable location = /home/luca/.virtualenvs/ansible4/bin/ansible-playbook
+  python version = 3.8.10 (default, Jun 22 2022, 20:18:18) [GCC 9.4.0]
+  jinja version = 3.0.3
+  libyaml = True
+2023-03-30 14:46:48,242 p=9079 u=luca n=ansible | Using /home/luca/workspace/terraform-sample-aws-ec2-environemnt/ansible.cfg as config file
+2023-03-30 14:46:48,242 p=9079 u=luca n=ansible | [DEPRECATION WARNING]: [defaults]callback_whitelist option, normalizing names to new 
+standard, use callbacks_enabled instead. This feature will be removed from ansible-core in 
+version 2.15. Deprecation warnings can be disabled by setting deprecation_warnings=False in 
+ansible.cfg.
+2023-03-30 14:46:48,247 p=9079 u=luca n=ansible | host_list declined parsing /home/luca/workspace/terraform-sample-aws-ec2-environemnt/aws_ec2.yml as it did not pass its verify_file() method
+2023-03-30 14:46:48,247 p=9079 u=luca n=ansible | script declined parsing /home/luca/workspace/terraform-sample-aws-ec2-environemnt/aws_ec2.yml as it did not pass its verify_file() method
+2023-03-30 14:46:48,248 p=9079 u=luca n=ansible | redirecting (type: inventory) ansible.builtin.aws_ec2 to amazon.aws.aws_ec2
+2023-03-30 14:46:48,364 p=9079 u=luca n=ansible | Using inventory plugin 'ansible_collections.amazon.aws.plugins.inventory.aws_ec2' to process inventory source '/home/luca/workspace/terraform-sample-aws-ec2-environemnt/aws_ec2.yml'
+2023-03-30 14:46:48,392 p=9079 u=luca n=botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2023-03-30 14:46:48,593 p=9079 u=luca n=botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2023-03-30 14:46:49,020 p=9079 u=luca n=ansible | Parsed /home/luca/workspace/terraform-sample-aws-ec2-environemnt/aws_ec2.yml inventory source with auto plugin
+2023-03-30 14:46:49,070 p=9079 u=luca n=ansible | redirecting (type: callback) ansible.builtin.yaml to community.general.yaml
+2023-03-30 14:46:49,089 p=9079 u=luca n=ansible | redirecting (type: callback) ansible.builtin.yaml to community.general.yaml
+2023-03-30 14:46:49,107 p=9079 u=luca n=ansible | Skipping callback 'default', as we already have a stdout callback.
+2023-03-30 14:46:49,107 p=9079 u=luca n=ansible | Skipping callback 'minimal', as we already have a stdout callback.
+2023-03-30 14:46:49,108 p=9079 u=luca n=ansible | Skipping callback 'oneline', as we already have a stdout callback.
+2023-03-30 14:46:49,108 p=9079 u=luca n=ansible | PLAYBOOK: main.yml **************************************************************************
+2023-03-30 14:46:49,108 p=9079 u=luca n=ansible | 1 plays in main.yml
+2023-03-30 14:46:49,109 p=9079 u=luca n=ansible | PLAY [refresh inventory and hostvars] *******************************************************
+2023-03-30 14:46:49,120 p=9079 u=luca n=ansible | TASK [Gathering Facts] **********************************************************************
+2023-03-30 14:46:49,121 p=9079 u=luca n=ansible | Thursday 30 March 2023  14:46:49 +0100 (0:00:00.014)       0:00:00.015 ******** 
+2023-03-30 14:46:49,121 p=9079 u=luca n=ansible | Thursday 30 March 2023  14:46:49 +0100 (0:00:00.013)       0:00:00.013 ******** 
+2023-03-30 14:46:49,129 p=9094 u=luca n=ansible | <18.170.65.177> ESTABLISH SSH CONNECTION FOR USER: None
+2023-03-30 14:46:49,130 p=9094 u=luca n=ansible | <18.170.65.177> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o ConnectTimeout=10 -o 'ControlPath="/home/luca/.ansible/cp/58856afacd"' 18.170.65.177 '/bin/sh -c '"'"'echo ~ && sleep 0'"'"''
+2023-03-30 14:46:49,366 p=9094 u=luca n=ansible | <18.170.65.177> (255, b'', b"Warning: Permanently added '18.170.65.177' (ECDSA) to the list of known hosts.\r\nluca@18.170.65.177: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).\r\n")
+2023-03-30 14:46:49,370 p=9079 u=luca n=ansible | fatal: [public-ip-address]: UNREACHABLE! => changed=false 
+  msg: |-
+    Failed to connect to the host via ssh: Warning: Permanently added '18.170.65.177' (ECDSA) to the list of known hosts.
+    luca@18.170.65.177: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+  unreachable: true
+2023-03-30 14:46:49,371 p=9079 u=luca n=ansible | PLAY RECAP **********************************************************************************
+2023-03-30 14:46:49,371 p=9079 u=luca n=ansible | public-ip-address          : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-03-30 14:46:49,371 p=9079 u=luca n=ansible | Thursday 30 March 2023  14:46:49 +0100 (0:00:00.250)       0:00:00.265 ******** 
+2023-03-30 14:46:49,372 p=9079 u=luca n=ansible | =============================================================================== 
+2023-03-30 14:46:49,372 p=9079 u=luca n=ansible | Gathering Facts ---------------------------------------------------------------------- 0.25s
+/home/luca/workspace/terraform-sample-aws-ec2-environemnt/main.yml:2 -----------------------
+2023-03-30 14:46:49,372 p=9079 u=luca n=ansible | Thursday 30 March 2023  14:46:49 +0100 (0:00:00.251)       0:00:00.264 ******** 
+2023-03-30 14:46:49,372 p=9079 u=luca n=ansible | =============================================================================== 
+2023-03-30 14:46:49,372 p=9079 u=luca n=ansible | gather_facts ------------------------------------------------------------ 0.25s
+2023-03-30 14:46:49,372 p=9079 u=luca n=ansible | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+2023-03-30 14:46:49,372 p=9079 u=luca n=ansible | total ------------------------------------------------------------------- 0.25s
+2023-03-30 14:47:25,956 p=9167 u=luca n=ansible | [DEPRECATION WARNING]: [defaults]callback_whitelist option, normalizing names to new 
+standard, use callbacks_enabled instead. This feature will be removed from ansible-core in 
+version 2.15. Deprecation warnings can be disabled by setting deprecation_warnings=False in 
+ansible.cfg.
+2023-03-30 14:47:25,957 p=9167 u=luca n=ansible | Starting galaxy collection install process
+2023-03-30 14:47:25,965 p=9167 u=luca n=ansible | Process install dependency map
+2023-03-30 14:47:25,966 p=9167 u=luca n=ansible | |
+2023-03-30 14:47:26,067 p=9167 u=luca n=ansible | /
+2023-03-30 14:47:26,168 p=9167 u=luca n=ansible | -
+2023-03-30 14:47:26,269 p=9167 u=luca n=ansible | \
+2023-03-30 14:47:26,370 p=9167 u=luca n=ansible | |
+2023-03-30 14:47:26,471 p=9167 u=luca n=ansible | /
+2023-03-30 14:47:26,572 p=9167 u=luca n=ansible | -
+2023-03-30 14:47:26,673 p=9167 u=luca n=ansible | \
+2023-03-30 14:47:26,774 p=9167 u=luca n=ansible | |
+2023-03-30 14:47:26,875 p=9167 u=luca n=ansible | /
+2023-03-30 14:47:26,976 p=9167 u=luca n=ansible | -
+2023-03-30 14:47:27,077 p=9167 u=luca n=ansible | \
+2023-03-30 14:47:27,178 p=9167 u=luca n=ansible | |
+2023-03-30 14:47:27,279 p=9167 u=luca n=ansible | /
+2023-03-30 14:47:27,380 p=9167 u=luca n=ansible | -
+2023-03-30 14:47:27,481 p=9167 u=luca n=ansible | \
+2023-03-30 14:47:27,582 p=9167 u=luca n=ansible | |
+2023-03-30 14:47:27,683 p=9167 u=luca n=ansible |  [ERROR]: User interrupted execution
+
+2023-03-30 14:47:29,490 p=9191 u=luca n=ansible | [DEPRECATION WARNING]: [defaults]callback_whitelist option, normalizing names to new 
+standard, use callbacks_enabled instead. This feature will be removed from ansible-core in 
+version 2.15. Deprecation warnings can be disabled by setting deprecation_warnings=False in 
+ansible.cfg.
+2023-03-30 14:47:29,586 p=9191 u=luca n=botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2023-03-30 14:47:29,661 p=9191 u=luca n=botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2023-03-30 14:47:30,037 p=9191 u=luca n=ansible | PLAY [refresh inventory and hostvars] *******************************************************
+2023-03-30 14:47:30,044 p=9191 u=luca n=ansible | TASK [Gathering Facts] **********************************************************************
+2023-03-30 14:47:30,044 p=9191 u=luca n=ansible | Thursday 30 March 2023  14:47:30 +0100 (0:00:00.009)       0:00:00.009 ******** 
+2023-03-30 14:47:30,044 p=9191 u=luca n=ansible | Thursday 30 March 2023  14:47:30 +0100 (0:00:00.008)       0:00:00.008 ******** 
+2023-03-30 14:47:30,313 p=9191 u=luca n=ansible | fatal: [mongoc-3]: UNREACHABLE! => changed=false 
+  msg: |-
+    Failed to connect to the host via ssh: Warning: Permanently added '3.8.147.113' (ECDSA) to the list of known hosts.
+    luca@3.8.147.113: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+  unreachable: true
+2023-03-30 14:47:30,328 p=9191 u=luca n=ansible | fatal: [mongoc-1]: UNREACHABLE! => changed=false 
+  msg: |-
+    Failed to connect to the host via ssh: Warning: Permanently added '18.130.41.67' (ECDSA) to the list of known hosts.
+    luca@18.130.41.67: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+  unreachable: true
+2023-03-30 14:47:30,339 p=9191 u=luca n=ansible | fatal: [mongod-2]: UNREACHABLE! => changed=false 
+  msg: |-
+    Failed to connect to the host via ssh: Warning: Permanently added '3.8.89.91' (ECDSA) to the list of known hosts.
+    luca@3.8.89.91: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+  unreachable: true
+2023-03-30 14:47:30,387 p=9191 u=luca n=ansible | fatal: [mongod-1]: UNREACHABLE! => changed=false 
+  msg: |-
+    Failed to connect to the host via ssh: Warning: Permanently added '13.40.127.123' (ECDSA) to the list of known hosts.
+    luca@13.40.127.123: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+  unreachable: true
+2023-03-30 14:47:30,419 p=9191 u=luca n=ansible | fatal: [mongod-3]: UNREACHABLE! => changed=false 
+  msg: |-
+    Failed to connect to the host via ssh: Warning: Permanently added '13.42.28.221' (ECDSA) to the list of known hosts.
+    luca@13.42.28.221: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+  unreachable: true
+2023-03-30 14:47:30,486 p=9191 u=luca n=ansible | fatal: [mongoc-2]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: luca@18.170.65.177: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).'
+  unreachable: true
+2023-03-30 14:47:30,487 p=9191 u=luca n=ansible | PLAY RECAP **********************************************************************************
+2023-03-30 14:47:30,487 p=9191 u=luca n=ansible | mongoc-1                   : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-03-30 14:47:30,487 p=9191 u=luca n=ansible | mongoc-2                   : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-03-30 14:47:30,488 p=9191 u=luca n=ansible | mongoc-3                   : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-03-30 14:47:30,488 p=9191 u=luca n=ansible | mongod-1                   : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-03-30 14:47:30,488 p=9191 u=luca n=ansible | mongod-2                   : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-03-30 14:47:30,488 p=9191 u=luca n=ansible | mongod-3                   : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-03-30 14:47:30,489 p=9191 u=luca n=ansible | Thursday 30 March 2023  14:47:30 +0100 (0:00:00.444)       0:00:00.453 ******** 
+2023-03-30 14:47:30,489 p=9191 u=luca n=ansible | =============================================================================== 
+2023-03-30 14:47:30,489 p=9191 u=luca n=ansible | Gathering Facts ---------------------------------------------------------------------- 0.44s
+2023-03-30 14:47:30,489 p=9191 u=luca n=ansible | Thursday 30 March 2023  14:47:30 +0100 (0:00:00.444)       0:00:00.453 ******** 
+2023-03-30 14:47:30,489 p=9191 u=luca n=ansible | =============================================================================== 
+2023-03-30 14:47:30,490 p=9191 u=luca n=ansible | gather_facts ------------------------------------------------------------ 0.45s
+2023-03-30 14:47:30,490 p=9191 u=luca n=ansible | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+2023-03-30 14:47:30,490 p=9191 u=luca n=ansible | total ------------------------------------------------------------------- 0.45s
+2023-03-30 14:59:42,723 p=10685 u=luca n=ansible | [DEPRECATION WARNING]: [defaults]callback_whitelist option, normalizing names to new 
+standard, use callbacks_enabled instead. This feature will be removed from ansible-core in 
+version 2.15. Deprecation warnings can be disabled by setting deprecation_warnings=False in 
+ansible.cfg.
+2023-03-30 14:59:42,818 p=10685 u=luca n=botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2023-03-30 14:59:42,891 p=10685 u=luca n=botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2023-03-30 14:59:43,366 p=10685 u=luca n=ansible | PLAY [refresh inventory and hostvars] *******************************************************
+2023-03-30 14:59:43,372 p=10685 u=luca n=ansible | TASK [Gathering Facts] **********************************************************************
+2023-03-30 14:59:43,372 p=10685 u=luca n=ansible | Thursday 30 March 2023  14:59:43 +0100 (0:00:00.007)       0:00:00.007 ******** 
+2023-03-30 14:59:43,372 p=10685 u=luca n=ansible | Thursday 30 March 2023  14:59:43 +0100 (0:00:00.007)       0:00:00.007 ******** 
+2023-03-30 14:59:45,207 p=10685 u=luca n=ansible | [WARNING]: Platform linux on host clusterB-3 is using the discovered Python interpreter at
+/usr/bin/python3.7, but future installation of another Python interpreter could change the
+meaning of that path. See https://docs.ansible.com/ansible-
+core/2.13/reference_appendices/interpreter_discovery.html for more information.
+
+2023-03-30 14:59:45,208 p=10685 u=luca n=ansible | ok: [clusterB-3]
+2023-03-30 14:59:45,216 p=10685 u=luca n=ansible | [WARNING]: Platform linux on host clusterA-3 is using the discovered Python interpreter at
+/usr/bin/python3.7, but future installation of another Python interpreter could change the
+meaning of that path. See https://docs.ansible.com/ansible-
+core/2.13/reference_appendices/interpreter_discovery.html for more information.
+
+2023-03-30 14:59:45,217 p=10685 u=luca n=ansible | ok: [clusterA-3]
+2023-03-30 14:59:45,521 p=10685 u=luca n=ansible | [WARNING]: Platform linux on host clusterB-2 is using the discovered Python interpreter at
+/usr/bin/python3.7, but future installation of another Python interpreter could change the
+meaning of that path. See https://docs.ansible.com/ansible-
+core/2.13/reference_appendices/interpreter_discovery.html for more information.
+
+2023-03-30 14:59:45,521 p=10685 u=luca n=ansible | ok: [clusterB-2]
+2023-03-30 14:59:46,170 p=10685 u=luca n=ansible | [WARNING]: Platform linux on host clusterB-1 is using the discovered Python interpreter at
+/usr/bin/python3.7, but future installation of another Python interpreter could change the
+meaning of that path. See https://docs.ansible.com/ansible-
+core/2.13/reference_appendices/interpreter_discovery.html for more information.
+
+2023-03-30 14:59:46,170 p=10685 u=luca n=ansible | ok: [clusterB-1]
+2023-03-30 14:59:46,539 p=10685 u=luca n=ansible | [WARNING]: Platform linux on host clusterA-2 is using the discovered Python interpreter at
+/usr/bin/python3.7, but future installation of another Python interpreter could change the
+meaning of that path. See https://docs.ansible.com/ansible-
+core/2.13/reference_appendices/interpreter_discovery.html for more information.
+
+2023-03-30 14:59:46,539 p=10685 u=luca n=ansible | ok: [clusterA-2]
+2023-03-30 14:59:47,044 p=10685 u=luca n=ansible | [WARNING]: Platform linux on host clusterA-1 is using the discovered Python interpreter at
+/usr/bin/python3.7, but future installation of another Python interpreter could change the
+meaning of that path. See https://docs.ansible.com/ansible-
+core/2.13/reference_appendices/interpreter_discovery.html for more information.
+
+2023-03-30 14:59:47,045 p=10685 u=luca n=ansible | ok: [clusterA-1]
+2023-03-30 14:59:47,053 p=10685 u=luca n=ansible | TASK [meta] *********************************************************************************
+2023-03-30 14:59:47,054 p=10685 u=luca n=ansible | Thursday 30 March 2023  14:59:47 +0100 (0:00:03.681)       0:00:03.689 ******** 
+2023-03-30 14:59:47,054 p=10685 u=luca n=ansible | Thursday 30 March 2023  14:59:47 +0100 (0:00:03.681)       0:00:03.689 ******** 
+2023-03-30 14:59:47,084 p=10685 u=luca n=botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2023-03-30 14:59:47,194 p=10685 u=luca n=botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2023-03-30 14:59:47,451 p=10685 u=luca n=ansible | TASK [setup] ********************************************************************************
+2023-03-30 14:59:47,451 p=10685 u=luca n=ansible | Thursday 30 March 2023  14:59:47 +0100 (0:00:00.397)       0:00:04.087 ******** 
+2023-03-30 14:59:47,451 p=10685 u=luca n=ansible | Thursday 30 March 2023  14:59:47 +0100 (0:00:00.397)       0:00:04.086 ******** 
+2023-03-30 14:59:48,488 p=10685 u=luca n=ansible | ok: [clusterA-3]
+2023-03-30 14:59:48,533 p=10685 u=luca n=ansible | ok: [clusterB-2]
+2023-03-30 14:59:48,545 p=10685 u=luca n=ansible | ok: [clusterA-2]
+2023-03-30 14:59:48,572 p=10685 u=luca n=ansible | ok: [clusterB-1]
+2023-03-30 14:59:49,535 p=10685 u=luca n=ansible | ok: [clusterB-3]
+2023-03-30 14:59:50,827 p=10685 u=luca n=ansible | ok: [clusterA-1]
+2023-03-30 14:59:50,835 p=10685 u=luca n=ansible | PLAY RECAP **********************************************************************************
+2023-03-30 14:59:50,835 p=10685 u=luca n=ansible | clusterA-1                 : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-03-30 14:59:50,836 p=10685 u=luca n=ansible | clusterA-2                 : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-03-30 14:59:50,836 p=10685 u=luca n=ansible | clusterA-3                 : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-03-30 14:59:50,836 p=10685 u=luca n=ansible | clusterB-1                 : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-03-30 14:59:50,836 p=10685 u=luca n=ansible | clusterB-2                 : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-03-30 14:59:50,836 p=10685 u=luca n=ansible | clusterB-3                 : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-03-30 14:59:50,836 p=10685 u=luca n=ansible | Thursday 30 March 2023  14:59:50 +0100 (0:00:03.385)       0:00:07.472 ******** 
+2023-03-30 14:59:50,836 p=10685 u=luca n=ansible | =============================================================================== 
+2023-03-30 14:59:50,837 p=10685 u=luca n=ansible | Gathering Facts ---------------------------------------------------------------------- 3.68s
+2023-03-30 14:59:50,837 p=10685 u=luca n=ansible | setup -------------------------------------------------------------------------------- 3.39s
+2023-03-30 14:59:50,837 p=10685 u=luca n=ansible | meta --------------------------------------------------------------------------------- 0.40s
+2023-03-30 14:59:50,837 p=10685 u=luca n=ansible | Thursday 30 March 2023  14:59:50 +0100 (0:00:03.385)       0:00:07.472 ******** 
+2023-03-30 14:59:50,837 p=10685 u=luca n=ansible | =============================================================================== 
+2023-03-30 14:59:50,837 p=10685 u=luca n=ansible | gather_facts ------------------------------------------------------------ 3.68s
+2023-03-30 14:59:50,837 p=10685 u=luca n=ansible | setup ------------------------------------------------------------------- 3.39s
+2023-03-30 14:59:50,838 p=10685 u=luca n=ansible | meta -------------------------------------------------------------------- 0.40s
+2023-03-30 14:59:50,838 p=10685 u=luca n=ansible | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+2023-03-30 14:59:50,838 p=10685 u=luca n=ansible | total ------------------------------------------------------------------- 7.47s

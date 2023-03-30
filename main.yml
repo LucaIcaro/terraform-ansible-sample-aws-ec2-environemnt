@@ -1,0 +1,10 @@
+---
+- name: refresh inventory and hostvars
+  hosts: "tag_env_dev"
+  tags:
+    - always
+  gather_facts: true
+
+  tasks:
+    - meta: refresh_inventory
+    - setup:

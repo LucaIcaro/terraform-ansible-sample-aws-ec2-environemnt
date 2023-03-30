@@ -27,7 +27,7 @@ resource "aws_security_group" "allow_ssh" {
   vpc_id = aws_vpc.main.id
 }
 
-resource "aws_instance" "mongoc" {
+resource "aws_instance" "clusterB" {
   count = 3
 
   ami           = "ami-08cd358d745620807"
@@ -40,15 +40,14 @@ resource "aws_instance" "mongoc" {
   key_name = "ansible"
 
   tags = {
-    Name = "mongoc-${count.index + 1}"
-    role = "mongoc"
+    Name = "clusterB-${count.index + 1}"
+    role = "clusterB"
     env = "dev"
-    project = "inv"
     count = "${count.index + 1}"
   }
 }
 
-resource "aws_instance" "mongod" {
+resource "aws_instance" "clusterA" {
   count = 3
 
   ami           = "ami-08cd358d745620807"
@@ -61,10 +60,9 @@ resource "aws_instance" "mongod" {
   key_name = "ansible"
 
   tags = {
-    Name = "mongod-${count.index + 1}"
-    role = "mongod"
+    Name = "clusterA-${count.index + 1}"
+    role = "clusterA"
     env = "dev"
-    project = "inv"
     count = "${count.index + 1}"
   }
 }
